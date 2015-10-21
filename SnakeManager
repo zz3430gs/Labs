@@ -1,0 +1,19 @@
+package com.company;
+import java.util.LinkedList;
+
+public class SnakeManager {
+    public static void main(String[] args){
+        LinkedList<Snake> venomRanking = new LinkedList<>();
+        Snake rattleSnake = new Snake("Rattlesnake", 4);
+        Snake seaSnake = new Snake("Sea Snake", 9);
+        Snake greenMamba = new Snake("Green Mamba", 9);
+        Snake cobra = new Snake("Cobra", 5);
+        Snake boaConstrictor = new Snake("Boa Constrictor", 0);
+        venomRanking.add(rattleSnake);
+        venomRanking.add(seaSnake);
+        venomRanking.add(greenMamba);
+        venomRanking.add(cobra);
+        venomRanking.add(boaConstrictor);
+
+    }
+}
