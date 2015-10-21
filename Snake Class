@@ -1,0 +1,12 @@
+package com.company;
+
+public class Snake {
+
+    String species;
+    double venomRating;
+
+    public Snake(String s, double v){
+        this.species = s;
+        this.venomRating = v;
+    }
+}
